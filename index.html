@@ -8,21 +8,22 @@
     <meta name="description" content="Página web de blog de café">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
 
     <!--Prefetch bueno con google analytics para hacer prefetch a cierta pagina-->
     <link rel="prefetch" href="nosotros.html" as="document">
 
     <!--Preload  mejoras para performance-->
+    <!--Preload  normalize-->
     <link rel="preload" href="css/normalize.css" as="style" />
     <link rel="stylesheet" href="css/normalize.css">
 
+    <!--Preload  fuentes-->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--Preload  estilos-->
     <link rel="preload" href="css/style.css" as="style" />
     <link rel="stylesheet" href="css/style.css">
-
-    <link rel="preload" href="img/blog1.jpg" as="image">
 
 </head>
 
@@ -144,8 +145,7 @@
         </div>
     </footer>
 
-    <!-- <script src="js/modernizr.js"></script>
-        Libreria para ver que soporta el navegador (usado con webp)-->
+    <script src="js/modernizr.js"></script> <!-- Libreria para ver que soporta el navegador (usado con webp)-->
 
 </body>
 

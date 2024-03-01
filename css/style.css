@@ -79,9 +79,7 @@ img {
 
 /*HEADER*/
 
-/*
-
-Uso con libreria modermizr
+/*Uso con libreria modermizr WEBP para optimización*/
 .webp .header {
     background-image: url(../img/banner.webp);
 }
@@ -89,7 +87,6 @@ Uso con libreria modermizr
 .no-webp .header {
     background-image: url(../img/banner.jpg);
 }
-*/
 
 .header {
     background-image: url(../img/banner.jpg);
