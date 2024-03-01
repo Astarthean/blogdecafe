@@ -1,2 +1,2 @@
-# [Blog de café](https://blogdecafe-ana.web.app/nosotros.html)
+# [Blog de café](https://blogdecafe-ana.web.app/index.html)
 ### Deploy con Firebase
